@@ -1,0 +1,4 @@
+<luke-form (lukeCreated)="addLuke($event)"></luke-form>
+<luke *ngFor="let l of lukes" [luke]="l" (lukeDeleted)="deleteLuke($event)"></luke> 
+
+
